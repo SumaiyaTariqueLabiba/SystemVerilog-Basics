@@ -1,0 +1,110 @@
+$date
+	Mon Oct  2 11:30:34 2023
+$end
+
+$version
+	Synopsys VCS version S-2021.09
+$end
+
+$timescale
+	1ns
+$end
+
+$comment Csum: 1 c2b0bf3a1e93ce6b $end
+
+
+$scope module ALU_testbench $end
+$var reg 4 ! out [3:0] $end
+$var reg 1 " sign $end
+$var reg 1 # carr $end
+$var reg 1 $ zero $end
+$var reg 12 % in [11:0] $end
+
+$scope module DUT $end
+$var reg 4 ! out [3:0] $end
+$var reg 1 " sign $end
+$var reg 1 # carr $end
+$var reg 1 $ zero $end
+$var reg 12 % in [11:0] $end
+$var reg 4 & A [3:0] $end
+$var reg 4 ' B [3:0] $end
+$var reg 5 ( y [4:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+x#
+x"
+x$
+bxxxxxxxxxxxx %
+bxxxx !
+bxxxx &
+bxxxx '
+bxxxxx (
+$end
+#10
+b000100001100 %
+b1100 &
+b0000 '
+0#
+0"
+0$
+b10011 (
+#20
+b110110100010 %
+b0010 &
+b1010 '
+b0011 !
+b01100 (
+#30
+b100100110101 %
+b0101 &
+b0011 '
+b1100 !
+b00001 (
+#40
+b010100100010 %
+b0010 &
+b0010 '
+b0001 !
+b00100 (
+#50
+b110001110110 %
+b0110 &
+b0111 '
+b0100 !
+b11001 (
+#60
+b001010010001 %
+b0001 &
+b1001 '
+1"
+b1001 !
+b01000 (
+#70
+b001110110011 %
+b0011 &
+b1011 '
+0"
+b1000 !
+b10111 (
+#80
+b011000010100 %
+b0100 &
+b0001 '
+b0111 !
+b11010 (
+#90
+b111110100000 %
+b0000 &
+b1010 '
+b1010 !
+b00000 (
+#100
+b000010100000 %
+1$
+b0000 !
