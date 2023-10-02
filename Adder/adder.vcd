@@ -1,0 +1,72 @@
+$date
+	Sun Oct  1 22:22:35 2023
+$end
+
+$version
+	Synopsys VCS version S-2021.09
+$end
+
+$timescale
+	1ns
+$end
+
+$comment Csum: 1 f24eb21bf32c5733 $end
+
+
+$scope module testbench_adder $end
+$var reg 8 ! a [7:0] $end
+$var reg 8 " b [7:0] $end
+$var reg 1 # c_in $end
+$var reg 8 $ sum [7:0] $end
+$var reg 1 % c_out $end
+$var wire 1 & c_Out $end
+
+$scope module adder_tb $end
+$var reg 8 ! a [7:0] $end
+$var reg 8 " b [7:0] $end
+$var reg 1 # c_in $end
+$var reg 8 $ sum [7:0] $end
+$var reg 1 ' c_out $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+x#
+x'
+x&
+bxxxxxxxx !
+bxxxxxxxx "
+bxxxxxxxx $
+x%
+$end
+#10
+b00000000 !
+0'
+0&
+b00000000 "
+1#
+b00000001 $
+#20
+b00000001 !
+b00000010 $
+#30
+b00000000 !
+b00000001 "
+#40
+b00000001 !
+b00000011 $
+#50
+b00000000 !
+b00000000 "
+0#
+b00000000 $
+#60
+b00000001 !
+b00000001 $
+#80
+b00000001 "
+b00000010 $
