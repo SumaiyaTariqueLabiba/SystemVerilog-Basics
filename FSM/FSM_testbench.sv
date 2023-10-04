@@ -12,7 +12,6 @@ module FSM_testbench;
                  .reset(reset),
                  .z(z)
                 );
-
   initial begin      //clock generating 
     clk=0;
     forever #5 clk=~clk;
