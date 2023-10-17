@@ -1,0 +1,152 @@
+$date
+	Tue Oct 17 14:02:05 2023
+$end
+
+$version
+	Synopsys VCS version S-2021.09
+$end
+
+$timescale
+	1ns
+$end
+
+$comment Csum: 1 3d94152d44433f9a $end
+
+
+$scope module ram_testbench $end
+$var reg 1 ! clk $end
+$var reg 1 " en_a $end
+$var reg 1 # en_b $end
+$var reg 5 $ addr_a [4:0] $end
+$var reg 5 % addr_b [4:0] $end
+$var reg 8 & data_in_a [7:0] $end
+$var reg 8 ' data_in_b [7:0] $end
+$var reg 8 ( data_out_a [7:0] $end
+$var reg 8 ) data_out_b [7:0] $end
+$var reg 8 * out_a_tb [7:0] $end
+$var reg 8 + out_b_tb [7:0] $end
+
+$scope task execute $end
+$upscope $end
+
+
+$scope module DUT $end
+$var reg 1 ! clk $end
+$var reg 1 " en_a $end
+$var reg 1 # en_b $end
+$var reg 5 $ addr_a [4:0] $end
+$var reg 5 % addr_b [4:0] $end
+$var reg 8 & data_in_a [7:0] $end
+$var reg 8 ' data_in_b [7:0] $end
+$var reg 8 ( data_out_a [7:0] $end
+$var reg 8 ) data_out_b [7:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+x"
+x#
+bxxxxx $
+bxxxxx %
+bxxxxxxxx &
+bxxxxxxxx '
+bxxxxxxxx (
+bxxxxxxxx )
+bxxxxxxxx *
+bxxxxxxxx +
+$end
+#10
+1!
+b00100 $
+b10000001 &
+b01001 %
+b01100011 '
+0"
+0#
+#20
+0!
+#30
+1!
+b01101 $
+b10001101 &
+b00101 %
+b00010010 '
+1"
+1#
+b10001101 (
+b00010010 )
+#40
+0!
+#50
+1!
+b00001 $
+b00001101 &
+b10110 %
+b00111101 '
+b00001101 (
+b00111101 )
+#60
+0!
+#70
+1!
+b01101 $
+b10001100 &
+b11001 %
+b11000110 '
+b10001100 (
+b11000110 )
+#80
+0!
+#90
+1!
+b00101 $
+b10101010 &
+b00101 %
+b01110111 '
+b10101010 (
+b01110111 )
+#100
+0!
+#110
+1!
+b10010 $
+b10001111 &
+b10010 %
+b11001110 '
+b10001111 (
+b11001110 )
+#120
+0!
+#130
+1!
+b01000 $
+b11000101 &
+b11100 %
+b10111101 '
+b11000101 (
+b10111101 )
+#140
+0!
+#150
+1!
+b01101 $
+b01100101 &
+b00011 %
+b00001010 '
+b01100101 (
+b00001010 )
+#160
+0!
+#170
+1!
+b00000 $
+b00100000 &
+b01010 %
+b10011101 '
+b00100000 (
+b10011101 )
